@@ -1,0 +1,101 @@
+# default configuration
+baseURL = "https://vinod28012000.github.io/portfolio"
+publishDir = "docs"
+languageCode = "en-us"
+summaryLength = "10"
+theme = "kross-hugo"
+title = "Portfolio"
+
+# css plugins
+[[params.plugins.css]]
+link = "plugins/bootstrap/bootstrap.min.css"
+[[params.plugins.css]]
+link = "plugins/slick/slick.css"
+[[params.plugins.css]]
+link = "plugins/themify-icons/themify-icons.css"
+
+
+# js plugin
+[[params.plugins.js]]
+link = "plugins/jQuery/jquery.min.js"
+[[params.plugins.js]]
+link = "plugins/bootstrap/bootstrap.min.js"
+[[params.plugins.js]]
+link = "plugins/slick/slick.min.js"
+[[params.plugins.js]]
+link = "plugins/shuffle/shuffle.min.js"
+
+
+# menu
+[[menu.main]]
+URL = "about"
+name = "About"
+weight = 1
+
+[[menu.main]]
+URL = "certifications"
+name = "Certifications"
+weight = 2
+
+[[menu.main]]
+URL = "contact"
+name = "Contact"
+weight = 3
+
+
+# default parameters
+[params]
+home = "Home"
+logo = ""
+# theme color
+theme_color = "#41228e"
+# contact info
+phone = "8660472244"
+email = "vinodkumarg2812@gmail.com"
+address = "BMS Institute of Technology and Management, Avalahalli, Yelahanka, Bengaluru"
+# meta description
+author = "Vinodkumar G"
+description = "This is meta description"
+# copyright
+copyright = "Copyright &copy; 2021 Vinodkumar G. All rights reserved"
+
+
+# preloader
+[params.preloader]
+enable = true
+preloader = "images/preloader.gif" # use png, jpg, svg or gif format
+
+# contact
+[params.contact]
+enable = false
+form_action = "#" # contact form works with : https://formspree.io
+
+# google map
+[params.map]
+enable = false
+gmap_api = "https://maps.googleapis.com/maps/api/js?key=&#038;types=(cities)&#038;libraries=places&#038;language=en"
+map_latitude = "51.5223477"
+map_longitude = "-0.1622023"
+map_marker = "images/marker.png"
+
+# cookies
+[params.cookies]
+enable = true
+expire_days = 2
+
+# social site
+[[params.social]]
+icon = "ti-facebook"
+URL = "https://m.facebook.com/vinod.vinod.3785373"
+
+[[params.social]]
+icon = "ti-instagram"
+URL = "https://www.instagram.com/vinodkumar_g2801/"
+
+[[params.social]]
+icon = "ti-linkedin"
+URL = "https://www.linkedin.com/in/vinodkumar-g-b2a419174"
+
+[[params.social]]
+icon = "ti-twitter-alt"
+URL = "https://twitter.com/Vinodku05898146?s=09"
