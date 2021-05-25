@@ -33,7 +33,7 @@ name = "About"
 weight = 1
 
 [[menu.main]]
-URL = "certifications"
+URL = "portfolio"
 name = "Certifications"
 weight = 2
 
