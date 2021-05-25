@@ -1,5 +1,5 @@
 # default configuration
-baseURL = "https://vinod28012000.github.io/portfolio"
+baseURL = "https://v1n0dkumarg.github.io/portfolio"
 publishDir = "docs"
 languageCode = "en-us"
 summaryLength = "10"
